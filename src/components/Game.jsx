@@ -134,7 +134,7 @@ export default function Game() {
         }}
       >
         <h1 style={{ fontSize: "2rem", fontWeight: "700", marginBottom: "1rem" }}>
-          ✨ Blink Tic Tac Toe ✨
+          Blink Tic Tac Toe
         </h1>
 
         {!categorySelected ? (
@@ -167,27 +167,28 @@ export default function Game() {
 
             <div style={{ marginBottom: "1.5rem", textAlign: "left" }}>
               <label style={{ fontWeight: "600" }}>Player 2: Choose Category</label>
-              <select
-                style={{
-                    width: "100%",
-                    padding: "10px",
-                    borderRadius: "10px",
-                    border: "none",
-                    marginTop: "0.5rem",
-                    fontSize: "1rem",
-                    color: "#333",
-                    backgroundColor: "white",
-                }}
-                value={player1Category}
-                onChange={(e) => setPlayer1Category(e.target.value)}
-                >
-                <option value="">Select</option>
-                {Object.keys(emojiCategories).map((cat) => (
-                    <option key={cat} value={cat}>
-                    {cat}
-                    </option>
-                ))}
-                </select>
+                            <select
+                    style={{
+                      width: "100%",
+                      padding: "10px",
+                      borderRadius: "10px",
+                      border: "none",
+                      marginTop: "0.5rem",
+                      fontSize: "1rem",
+                      color: "#333",
+                      backgroundColor: "white",
+                    }}
+                    value={player2Category}
+                    onChange={(e) => setPlayer2Category(e.target.value)}
+                  >
+                    <option value="">Select</option>
+                    {Object.keys(emojiCategories).map((cat) => (
+                      <option key={cat} value={cat}>
+                        {cat}
+                      </option>
+                    ))}
+                  </select>
+
 
             </div>
 
