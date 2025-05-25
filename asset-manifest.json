@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Blink-tic-tac-toe/static/css/main.585950be.css",
+    "main.js": "/Blink-tic-tac-toe/static/js/main.fbfa56b8.js",
+    "static/js/453.1c5b440a.chunk.js": "/Blink-tic-tac-toe/static/js/453.1c5b440a.chunk.js",
+    "index.html": "/Blink-tic-tac-toe/index.html",
+    "main.585950be.css.map": "/Blink-tic-tac-toe/static/css/main.585950be.css.map",
+    "main.fbfa56b8.js.map": "/Blink-tic-tac-toe/static/js/main.fbfa56b8.js.map",
+    "453.1c5b440a.chunk.js.map": "/Blink-tic-tac-toe/static/js/453.1c5b440a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.585950be.css",
+    "static/js/main.fbfa56b8.js"
+  ]
+}
