@@ -110,29 +110,36 @@ export default function Game() {
 
   return (
     <div
-      style={{
-        minHeight: "100vh",
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "20px",
-        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-      }}
-    >
-      <div
-        style={{
-          background: "rgba(255, 255, 255, 0.15)",
-          backdropFilter: "blur(12px)",
-          WebkitBackdropFilter: "blur(12px)",
-          borderRadius: "20px",
-          padding: "30px",
-          boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
-          width: "360px",
-          color: "white",
-          textAlign: "center",
-        }}
-      >
+  style={{
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    minHeight: "100vh",
+    background: "linear-gradient(135deg,rgb(247, 202, 204) 0%, rgb(195, 167, 160) 100%)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "10px",
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+  }}
+>
+        <div
+  style={{
+   background: "linear-gradient(145deg, #e0eafc, #cfdef3)",
+    borderRadius: "24px",
+    padding: "40px 30px",
+    boxShadow: "12px 12px 24px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(138, 28, 28, 0.7)",
+    width: "360px",
+    color: "#332",
+    textAlign: "center",
+    border: "1px solidrgb(28, 100, 21)",
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    transition: "transform 0.3s ease",
+    
+  }}
+>
         <h1 style={{ fontSize: "2rem", fontWeight: "700", marginBottom: "1rem" }}>
           Blink Tic Tac Toe
         </h1>
